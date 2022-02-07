@@ -27,13 +27,13 @@ LOGFILE = LOGFILENAME[:] # .txt; adding path before logfilename is optional; log
 # DISPLAY
 SCREENNR = 0 #1 number of the screen used for displaying experiment
 DISPTYPE = 'psychopy' # either 'psychopy' or 'pygame'
-DISPSIZE = (1440,900)#(1920,1080)#(1280,1024) #(3072,1920) #canvas size
+DISPSIZE = (1280,800)#(1920,1080)#(1280,1024) #(3072,1920) #canvas size
 SCREENSIZE = (33,21)#(53,29.5)#(33.8,27.1) # physical screen size in centimeters
 SCREENDIST = 57.0 # centimeters; distance between screen and participant's eyes
-FULLSCREEN = False#False#True # Indicates whether the experiment is executed in fullscreen
-MOUSEVISIBLE = False # mouse visibility
-BGC = (125,125,125) # backgroundcolour
-FGC = (0,0,0) # foregroundcolour
+FULLSCREEN = True#False#True # Indicates whether the experiment is executed in fullscreen
+MOUSEVISIBLE = True # mouse visibility
+BGC = (0,0,0) # backgroundcolour
+FGC = (255,255,255) # foregroundcolour
 
 # SOUND
 SOUNDOSCILLATOR = 'sine' # 'sine', 'saw', 'square' or 'whitenoise'
